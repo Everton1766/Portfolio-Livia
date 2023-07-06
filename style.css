@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+}
+
+body {
+    background-color: #C00DFC;
+}
+
+.topo {
+    height: 100vh;
+    width: 100%;    
+}
+
+a {    
+    font-size: 45px;
+    margin:30px;
+    color: #FFFF00;
+    display: flex;
+    flex-direction: column;    
+    text-decoration: none;
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    width: 300px;
+    margin-left: 100px;  
+    height: 100vh;
+    background-color: rgba(135,206,250, 0.4) ;
+    position: absolute;
+    opacity: 0.4ty;
+}
+
+.main {
+    display: flex;
+    
+}
+
+.first-h1 {
+    font-size: 90px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    color: #FFFF00;
+    font-weight: 200;
+    padding: 50px;
+    margin-left: 60px;
+}
+
+.first-p {
+    font-size: 60px;
+    color: #FFFF00;
+    font-weight: 200;
+    padding: 50px;
+}
+
+.img-main {
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+    border-radius: 20px;
+    border: #EE82EE solid 5px;
+    margin-right: 30px;
+    
+    
+}
+
+.imagens {    
+    position: relative;
+}
+
+H2 {
+    font-size: 50px;
+    color: #FFFF00;
+    margin-left: 50px;
+}
+
+.photo {
+    width: 280px;
+    height: 400px;
+    transition: transform 0.3s;
+    margin: 40px;
+    border-radius: 10px;
+    margin-left: 50PX;
+}
+
+.last-p {
+    font-size: 35px;
+    margin-top: 10px;
+    color: #FFFF00;
+}
+
+.fundo {
+    display: inline-flex;
+    
+ }
+
+.email {
+    height: 50px;
+    width: 50px;
+}
+
+.instagran {
+    height: 50px;
+    width: 65px;
+}
+
+.tiktok {
+    height: 50px;
+    width: 50px;
+}
+
+.photo:hover {
+    transform: scale(1.2);
+}
+
+.photo:focus {
+    transform: scale(2.5);
+    z-index: 1;
+}
+
+
+
